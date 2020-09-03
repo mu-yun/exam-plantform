@@ -1,9 +1,11 @@
 package exam.paperContext.domain.model.blankQuiz;
 
 import exam.paperContext.shared.ValueObject;
+import lombok.AllArgsConstructor;
 
 import java.util.Objects;
 
+@AllArgsConstructor
 public class BlankQuizId implements ValueObject<BlankQuizId> {
 
     private String id;
